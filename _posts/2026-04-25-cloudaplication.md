@@ -4,7 +4,7 @@ title: "Cloud-Native Systems in Clinical Research: Transforming Alzheimer’s Tr
 subtitle: "ATRI EDC: a novel cloud-native remote data capture system for large multicenter Alzheimer's disease clinical trials."
 gh-repo: geeeemi8/geeeemi8.github.io
 gh-badge: 
-tags: [test]
+tags: [cloud architecture]
 comments: true
 mathjax: true
 author: Gemma Esteve

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Cloud-Native Systems in Clinical Research: 
-subtitle: Transforming Alzheimer’s Trials. 
+title: "Cloud-Native Systems in Clinical Research:"
+subtitle: "Transforming Alzheimer’s Trials."
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
 tags: [test]

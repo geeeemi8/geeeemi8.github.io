@@ -24,9 +24,9 @@ As a result, these challenges can lead to delays in data collection and processi
   
 
 ### What Is ATRI EDC?
-The Alzheimer’s Therapeutic Research Institute (ATRI) developed a system known as **ATRI EDC (Electronic Data Capture)**, a platform specifically designed to address the growing complexity of modern clinical trials in Alzheimer’s disease. Unlike traditional electronic data capture systems, ATRI EDC was conceived as a **cloud-native solution**, aligning with contemporary best practices in scalable and distributed computing for biomedical research.
+The **Alzheimer’s Therapeutic Research Institute (ATRI)** developed a system known as **ATRI EDC (Electronic Data Capture)**, a platform specifically designed to address the growing complexity of modern clinical trials in Alzheimer’s disease. Unlike traditional electronic data capture systems, ATRI EDC was conceived as a **cloud-native solution**, aligning with contemporary best practices in scalable and distributed computing for biomedical research.
 
-Cloud-native architectures are increasingly recognized as essential for handling large-scale, multi-site clinical data. As highlighted by **De Brouwer et al. (2021)** and **Wilkinson et al. (2016)** in the context of FAIR data principles, modern research infrastructures must support accessibility, interoperability, and real-time data exchange. ATRI EDC reflects these principles by enabling seamless integration of heterogeneous data sources across geographically distributed clinical sites.
+Cloud-native architectures are increasingly recognized as essential for handling large-scale, multi-site clinical data. As highlighted by De Brouwer et al. (2021) and Wilkinson et al. (2016) in the context of FAIR data principles, modern research infrastructures must support accessibility, interoperability, and real-time data exchange. ATRI EDC reflects these principles by enabling seamless integration of heterogeneous data sources across geographically distributed clinical sites.
 
 The platform is built entirely on cloud-based principles, including:
 
@@ -34,9 +34,9 @@ The platform is built entirely on cloud-based principles, including:
 - **Centralized data storage**, ensuring that all trial data is aggregated in a unified and secure environment  
 - **Real-time updates**, enabling immediate synchronization of data across sites and stakeholders  
 
-This architecture is consistent with findings from **Kush et al. (2020)**, who emphasize that cloud-based clinical trial platforms significantly improve operational efficiency and data consistency compared to legacy systems.
+This architecture is consistent with findings from Kush et al. (2020), who emphasize that cloud-based clinical trial platforms significantly improve operational efficiency and data consistency compared to legacy systems.
 
-As a result, ATRI EDC allows researchers and clinicians to access and interact with trial data **from anywhere in the world**, supporting decentralized and hybrid trial designs. This is particularly relevant in Alzheimer’s research, where long-term follow-up and multi-center collaboration are essential. According to **Coravos et al. (2019)**, such digital infrastructures are key enablers of next-generation clinical trials, facilitating continuous data collection, remote monitoring, and improved patient engagement.
+As a result, ATRI EDC allows researchers and clinicians to access and interact with trial data **from anywhere in the world**, supporting decentralized and hybrid trial designs. This is particularly relevant in Alzheimer’s research, where long-term follow-up and multi-center collaboration are essential. According to Coravos et al. (2019), such digital infrastructures are key enablers of next-generation clinical trials, facilitating continuous data collection, remote monitoring, and improved patient engagement.
 
 Overall, ATRI EDC exemplifies the transition from fragmented, site-dependent systems to **integrated, cloud-native platforms** that enhance scalability, data quality, and global collaboration in clinical research.
 

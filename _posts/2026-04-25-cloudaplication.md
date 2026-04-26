@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cloud-Native Systems in Clinical Research: Transforming Alzheimer’s Trials."
-subtitle: "Scalable and secure cloud infrastructures for next-generation trials"
+subtitle: "ATRI EDC: a novel cloud-native remote data capture system for large multicenter Alzheimer's disease clinical trials."
 gh-repo: geeeemi8/geeeemi8.github.io
 gh-badge: 
 tags: [test]
@@ -12,7 +12,7 @@ author: Gemma Esteve
 
 Clinical trials in neurodegenerative diseases like Alzheimer’s are among the most complex in medicine. They often involve multiple hospitals, thousands of patients, and years of data collection. Managing this information efficiently is a major challenge.
 
-A recent innovation addressing this problem is ATRI EDC: a novel cloud-native remote data capture system for large multicenter Alzheimer's disease and Alzheimer's disease-related dementias clinical trials, which demonstrates how cloud-native technology can transform clinical research
+A recent innovation addressing this problem is **ATRI EDC**: a novel cloud-native remote data capture system for large multicenter Alzheimer's disease and Alzheimer's disease-related dementias clinical trials, which demonstrates how cloud-native technology can transform clinical research
 
 ## The Challenge of Alzheimer’s Clinical Trials
 
@@ -24,7 +24,7 @@ As a result, these challenges can lead to delays in data collection and processi
   
 
 ### What Is ATRI EDC?
-The :contentReference[oaicite:0]{index=0} developed a system known as **ATRI EDC (Electronic Data Capture)**, a platform specifically designed to address the growing complexity of modern clinical trials in Alzheimer’s disease. Unlike traditional electronic data capture systems, ATRI EDC was conceived as a **cloud-native solution**, aligning with contemporary best practices in scalable and distributed computing for biomedical research.
+The Alzheimer’s Therapeutic Research Institute (ATRI) developed a system known as **ATRI EDC (Electronic Data Capture)**, a platform specifically designed to address the growing complexity of modern clinical trials in Alzheimer’s disease. Unlike traditional electronic data capture systems, ATRI EDC was conceived as a **cloud-native solution**, aligning with contemporary best practices in scalable and distributed computing for biomedical research.
 
 Cloud-native architectures are increasingly recognized as essential for handling large-scale, multi-site clinical data. As highlighted by **De Brouwer et al. (2021)** and **Wilkinson et al. (2016)** in the context of FAIR data principles, modern research infrastructures must support accessibility, interoperability, and real-time data exchange. ATRI EDC reflects these principles by enabling seamless integration of heterogeneous data sources across geographically distributed clinical sites.
 
@@ -42,22 +42,22 @@ Overall, ATRI EDC exemplifies the transition from fragmented, site-dependent sys
 
 
 
-## Key Features of the System
-| Feature / Aspect            | Cloud-Based Systems ☁️                              | Traditional Systems 🖥️                         |
-|----------------------------|-----------------------------------------------------|------------------------------------------------|
-| Data Storage               | Centralized in cloud infrastructure                 | Local servers or on-site databases            |
-| Accessibility              | Accessible globally via internet                    | Limited to specific sites or networks          |
-| Scalability               | Easily scalable to large multi-site trials         | Difficult and costly to scale                  |
-| Data Updates              | Real-time synchronization across all sites          | Often delayed, batch updates                   |
-| Infrastructure Needs      | Minimal local infrastructure required               | Requires physical servers and maintenance      |
-| Data Integration          | Easier integration of multiple data sources         | Often fragmented and siloed                    |
-| Data Quality Control      | Automated validation and standardization            | Manual checks, higher risk of errors           |
-| Security & Compliance     | Centralized security, encryption, audit trails      | Variable security depending on site            |
-| Cost Efficiency          | Lower long-term operational costs                   | Higher maintenance and hardware costs          |
-| Collaboration            | Enables seamless multi-site and global collaboration | Limited, slower coordination                   |
+## Comparison: Cloud vs Traditional Clinical Systems
 
+| Feature | Cloud-Based Systems ☁️ | Traditional Systems 🖥️ |
+|--------|------------------------|-------------------------|
+| Data Storage | Centralized cloud infrastructure | Local servers / on-site databases |
+| Accessibility | Global access via internet | Limited to specific sites |
+| Scalability | Easily scales across multi-site trials | Difficult and costly to scale |
+| Data Updates | Real-time synchronization | Batch or delayed updates |
+| Infrastructure | Minimal local hardware needed | Heavy reliance on physical servers |
+| Data Integration | Seamless multi-source integration | Fragmented and siloed data |
+| Data Quality | Automated validation and standardization | Manual checks, higher error risk |
+| Security & Compliance | Centralized encryption and audit trails | Variable site-dependent security |
+| Cost | Lower long-term operational cost | Higher maintenance and hardware cost |
+| Collaboration | Fast global collaboration | Slower, site-restricted coordination |
 
-## Why Cloud Matters Here
+#### Why Cloud Matters Here?
 Cloud computing is becoming a fundamental component of modern clinical research, particularly in complex fields like Alzheimer’s disease. By centralizing data, enabling global accessibility, improving efficiency, and reducing infrastructure costs, cloud-native systems such as ATRI EDC significantly outperform traditional approaches. Their impact is especially important in Alzheimer’s research, where large-scale data integration, rapid analysis, and international collaboration are essential. Overall, cloud platforms are not just a technological improvement but a key enabler of faster, higher-quality, and more collaborative scientific discovery.
 
 ## 📚 References
@@ -65,6 +65,8 @@ Cloud computing is becoming a fundamental component of modern clinical research,
 - Coravos, A., Khozin, S., & Mandl, K. D. (2019). Developing and adopting safe and effective digital biomarkers to improve patient outcomes. *NPJ Digital Medicine*.  
 - De Brouwer, E., et al. (2021). Cloud-native architectures for biomedical data platforms.  
 - Kush, R., et al. (2020). Electronic data capture, clinical data management, and clinical trials. *Journal of Clinical Research Best Practices*.  
-- Wilkinson, M. D., et al. (2016). The FAIR Guiding Principles for scientific data management and stewardship. *Scientific Data*.  
-- ATRI EDC: A novel cloud-native remote data capture system for Alzheimer's clinical trials  
-- Additional literature on cloud computing in biomedical research  
+- Wilkinson, M. D., et al. (2016). The FAIR Guiding Principles for scientific data management and stewardship. *Scientific Data*.
+- ATRI EDC: A novel cloud-native remote data capture system for Alzheimer’s clinical trials  
+  :contentReference[oaicite:0]{index=0} Informatics Section, Keck School of Medicine of USC.  
+  https://atri.usc.edu/informatics/projects/  
+  Jimenez-Maggiora, G. A., Bruschi, S., Qiu, H., So, J. S., & Aisen, P. S. (2022). *ATRI EDC: a novel cloud-native remote data capture system for large multicenter Alzheimer’s disease and Alzheimer’s disease-related dementias clinical trials*. JAMIA Open, 5(1), ooab119. https://doi.org/10.1093/jamiaopen/ooab119 :contentReference[oaicite:1]{index=1}

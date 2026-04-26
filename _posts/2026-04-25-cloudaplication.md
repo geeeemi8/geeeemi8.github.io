@@ -1,95 +1,151 @@
 ---
 layout: post
-title: Sample blog post to learn markdown tips
-subtitle: There's lots to learn!
+title: Cloud-Native Systems in Clinical Research: 
+subtitle: Transforming Alzheimer’s Trials. 
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
 tags: [test]
 comments: true
 mathjax: true
-author: Bill Smith
+author: Gemma Esteve
 ---
 
-{: .box-success}
-This is a demo post to show you how to write blog posts with markdown.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/tables/etc.<br/>I also encourage you to look at the [code that created this post](https://raw.githubusercontent.com/daattali/beautiful-jekyll/master/_posts/2020-02-28-sample-markdown.md) to learn some more advanced tips about using markdown in Beautiful Jekyll.
+Clinical trials in neurodegenerative diseases like Alzheimer’s are among the most complex in medicine. They often involve multiple hospitals, thousands of patients, and years of data collection. Managing this information efficiently is a major challenge.
+A recent innovation addressing this problem is ATRI EDC: a novel cloud-native remote data capture system for large multicenter Alzheimer's disease and Alzheimer's disease-related dementias clinical trials, which demonstrates how cloud-native technology can transform clinical research
 
-**Here is some bold text**
+## The Challenge of Alzheimer’s Clinical Trials
 
-## Here is a secondary heading
+Alzheimer’s disease studies are particularly demanding because they require:
 
-[This is a link to a different site](https://deanattali.com/) and [this is a link to a section inside this page](#local-urls).
+- Long-term patient monitoring  
+- Data from multiple sources (cognitive tests, imaging, biomarkers)  
+- Coordination across **many clinical sites**  
 
-Here's a table:
+Traditional data capture systems are often:
 
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
+- Fragmented  
+- Difficult to scale  
+- Dependent on local infrastructure  
 
-You can use [MathJax](https://www.mathjax.org/) to write LaTeX expressions. For example:
-When \\(a \ne 0\\), there are two solutions to \\(ax^2 + bx + c = 0\\) and they are $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+This can lead to:
 
-How about a yummy crepe?
+- Delays in data collection  
+- Increased costs  
+- Reduced data quality  
 
-![Crepe](https://beautifuljekyll.com/assets/img/crepe.jpg)
+## ☁️ What Is ATRI EDC?
 
-It can also be centered!
+The **Alzheimer’s Therapeutic Research Institute (ATRI)** developed a system called **ATRI EDC (Electronic Data Capture)**, designed as a **cloud-native platform** for clinical trials.
 
-![Crepe](https://beautifuljekyll.com/assets/img/crepe.jpg){: .mx-auto.d-block :}
+Unlike older systems, ATRI EDC is built entirely on cloud principles:
 
-Here's a code chunk:
+- Web-based access  
+- Centralized data storage  
+- Real-time updates  
 
-~~~
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-~~~
+This allows researchers and clinicians to interact with trial data **from anywhere in the world**.
 
-And here is the same code with syntax highlighting:
 
-```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-```
+## ⚙️ Key Features of the System
 
-And here is the same code yet again but with line numbers:
+### 1. Remote Data Capture
 
-{% highlight javascript linenos %}
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-{% endhighlight %}
+Clinical sites can input patient data directly into the system through a secure web interface.
 
-## Boxes
-You can add notification, warning and error boxes like this:
+> No need for local servers or manual data transfer.
 
-### Notification
+---
 
-{: .box-note}
-**Note:** This is a notification box.
+### 2. Real-Time Data Availability
 
-### Warning
+Data is instantly accessible across all participating centers.
 
-{: .box-warning}
-**Warning:** This is a warning box.
+This improves:
 
-### Error
+- Monitoring of trial progress  
+- Early detection of inconsistencies  
+- Decision-making speed  
 
-{: .box-error}
-**Error:** This is an error box.
+---
 
-## Local URLs in project sites {#local-urls}
+### 3. Scalability
 
-When hosting a *project site* on GitHub Pages (for example, `https://USERNAME.github.io/MyProject`), URLs that begin with `/` and refer to local files may not work correctly due to how the root URL (`/`) is interpreted by GitHub Pages. You can read more about it [in the FAQ](https://beautifuljekyll.com/faq/#links-in-project-page). To demonstrate the issue, the following local image will be broken **if your site is a project site:**
+Because it is cloud-native, the system can:
 
-![Crepe](/assets/img/crepe.jpg)
+- Handle thousands of participants  
+- Expand easily to new sites  
+- Adapt to different trial designs  
 
-If the above image is broken, then you'll need to follow the instructions [in the FAQ](https://beautifuljekyll.com/faq/#links-in-project-page). Here is proof that it can be fixed:
+---
 
-![Crepe]({{ '/assets/img/crepe.jpg' | relative_url }})
+### 4. Data Quality and Standardization
+
+The platform includes:
+
+- Built-in validation rules  
+- Automated error checks  
+- Standardized data formats  
+
+This reduces human error and improves reliability.
+
+---
+
+### 5. Security and Compliance
+
+Given the sensitivity of patient data, ATRI EDC incorporates:
+
+- Secure authentication  
+- Data encryption  
+- Compliance with regulatory standards  
+
+
+## 🌍 Why Cloud Matters Here
+
+This system clearly shows why cloud computing is **not optional** in modern clinical research:
+
+- **Centralization** → All data is stored in one place  
+- **Accessibility** → Researchers worldwide access the same dataset  
+- **Efficiency** → No manual data transfer or syncing  
+- **Cost reduction** → Less physical infrastructure required 
+
+## 🏥 Real Impact on Alzheimer’s Research
+
+By using a cloud-native system like ATRI EDC:
+
+- Clinical trials become **faster and more efficient**  
+- Data quality improves significantly  
+- Collaboration across institutions is simplified  
+
+This is especially important in Alzheimer’s disease, where:
+
+- Early detection and treatment are critical  
+- Large datasets are needed to identify patterns  
+- Global collaboration accelerates discovery
+
+## 🔗 Connecting to the Bigger Picture
+
+The ATRI EDC platform reflects a broader trend in biomedicine:
+
+> Moving from isolated, local systems → to **integrated, cloud-based ecosystems**
+
+Cloud infrastructure also enables:
+
+- Scalable clinical trials  
+- Real-time data analysis  
+- Integration with AI and machine learning
+
+## 💡 Final Thoughts
+
+The development of ATRI EDC highlights a key shift in biomedical research:  
+**cloud-native infrastructure is becoming foundational, not optional**.
+
+For complex diseases like Alzheimer’s, cloud platforms:
+
+- Improve efficiency  
+- Enhance data quality  
+- Accelerate scientific discovery
+
+## 📚 References
+
+- ATRI EDC: A novel cloud-native remote data capture system for Alzheimer's clinical trials  
+- Additional literature on cloud computing in biomedical research  

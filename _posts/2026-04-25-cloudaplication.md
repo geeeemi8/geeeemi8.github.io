@@ -62,11 +62,9 @@ Cloud computing is becoming a fundamental component of modern clinical research,
 
 ## 📚 References
 
+- Jimenez-Maggiora, G. A., Bruschi, S., Qiu, H., So, J. S., & Aisen, P. S. (2022). *ATRI EDC: a novel cloud-native remote data capture system for large multicenter Alzheimer’s disease and Alzheimer’s disease-related dementias clinical trials*. JAMIA Open, 5(1), ooab119. https://doi.org/10.1093/jamiaopen/ooab119 
 - Coravos, A., Khozin, S., & Mandl, K. D. (2019). Developing and adopting safe and effective digital biomarkers to improve patient outcomes. *NPJ Digital Medicine*.  
 - De Brouwer, E., et al. (2021). Cloud-native architectures for biomedical data platforms.  
 - Kush, R., et al. (2020). Electronic data capture, clinical data management, and clinical trials. *Journal of Clinical Research Best Practices*.  
 - Wilkinson, M. D., et al. (2016). The FAIR Guiding Principles for scientific data management and stewardship. *Scientific Data*.
-- ATRI EDC: A novel cloud-native remote data capture system for Alzheimer’s clinical trials  
-  :contentReference[oaicite:0]{index=0} Informatics Section, Keck School of Medicine of USC.  
-  https://atri.usc.edu/informatics/projects/  
-  Jimenez-Maggiora, G. A., Bruschi, S., Qiu, H., So, J. S., & Aisen, P. S. (2022). *ATRI EDC: a novel cloud-native remote data capture system for large multicenter Alzheimer’s disease and Alzheimer’s disease-related dementias clinical trials*. JAMIA Open, 5(1), ooab119. https://doi.org/10.1093/jamiaopen/ooab119 :contentReference[oaicite:1]{index=1}
+
